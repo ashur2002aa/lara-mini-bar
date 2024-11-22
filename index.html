@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Container for each image and text */
+        .image-container {
+            width: 50%;  /* Width of each container */
+            margin: 20px auto;  /* Centering the containers with space between them */
+            text-align: center; /* Center the content */
+            display: block; /* Stacking containers vertically */
+            background-color: goldenrod;
+            border-radius: 10px;
+            box-shadow: 14px 14px 14px black; /* Shadow for the button */
+        }
+
+        /* Style for the buttons (images) */
+        .mybtn {
+            width: 100%; /* Fill the container width */
+            height: 100%; /* Ensure the height is the same as the width to make it square */
+            aspect-ratio: 1; /* Enforce the aspect ratio of 1:1, making it a square */
+            margin-bottom: 10px; /* Space between the image and text */
+            border-radius: 13px; /* Rounded corners */
+          
+            border: 0;
+            font-size: larger;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            cursor: pointer;
+            background-size: cover; /* Ensure the background image covers the button */
+            background-position: center; /* Ensure the image is centered */
+        }
+
+        /* Body and background styles */
+        body {
+            background-color: darkolivegreen;
+            background-image: url(38076ab827ad6c44c05cf6e4998f5d5f.jpg);
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header styles */
+        h3 {
+            font-family: Arial, sans-serif;
+            color: black;
+            background-color: goldenrod;
+            border-radius: 20px;
+            text-align: center;
+            font-size: x-large;
+          
+            margin-top: 10px; /* Add some space above the text */
+        }
+
+        /* Main header styles */
+        .HEAD {
+            font-style: italic;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: xx-large;
+            margin-bottom: 20px; /* Space below the header */
+            background-color: goldenrod;
+           /* Add padding for some vertical space */
+            position: relative;
+        }
+
+        .MINI {
+            margin-left: 9%;
+            margin-top: 0%;
+        }
+
+        .MINI2 {
+            margin-left: 4%;
+            margin-top: 0%;
+        }
+
+        /* Adjusting space for images */
+        .btns {
+            margin-top: 30px; /* Add space between the header and images */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Main Header -->
+    <div class="HEAD">
+        <h1 class="MINI">LARA HOTEL</h1>
+        <h4 class="MINI2">MINI BAR</h4>
+    </div>
+
+    <!-- Buttons and text containers -->
+    <div class="btns">
+        <!-- Container for first image and text -->
+        <div class="image-container">
+            <a href="Untitled-2.html">
+                <button class="mybtn" style="background-image: url(aa4d0fc0b3ec131d7b34cbbc9976c940.jpg);"></button>
+            </a>
+            <h3>Cold Drinks</h3>
+        </div>
+
+        <!-- Container for second image and text -->
+        <div class="image-container">
+            <a href="">
+                <button class="mybtn" style="background-image: url(e1f41483b1e18a68985b0c3a82135899.jpg);"></button>
+            </a>
+            <h3>Hot Drinks</h3>
+        </div>
+
+        <!-- Container for third image and text -->
+        <div class="image-container">
+            <a href="">
+                <button class="mybtn" style="background-image: url(fa9b05b4d5ddfe5a24ccf1fb56989475.jpg);"></button>
+            </a>
+            <h3>Milkshakes</h3>
+        </div>
+    </div>
+
+</body>
+</html>
